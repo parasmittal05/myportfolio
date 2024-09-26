@@ -5,11 +5,17 @@
   margin-top: 120px;
   background-color: var(--color-secondary);
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: row; /* Default to row for larger screens */
+  justify-content: space-between; /* Distribute space evenly */
+  align-items: center; /* Center items vertically */
   width: 100vw;
   padding: 58px 10%;
   gap: 10px;
+}
+
+.text {
+  flex: 1; /* Allow text to take up space */
+  text-align: center; /* Center text */
 }
 
 .text h2 {
@@ -26,10 +32,11 @@
 
 .links {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Stack links vertically by default */
   align-items: flex-start;
   list-style: none;
   gap: 26px;
+  flex: 1; /* Allow links to take up space */
 }
 
 .link {
@@ -46,19 +53,62 @@
   letter-spacing: 1.5px;
 }
 
+/* Responsive Styles for Mobile */
 @media screen and (max-width: 830px) {
   .container {
-    flex-direction: column;
-    gap: 23px;
+    flex-direction: column; /* Stack elements vertically */
+    padding: 30px 5%; /* Adjust padding for smaller screens */
+    gap: 10px; /* Add gap between stacked elements */
   }
 
   .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-bottom: 25px; /* Space between text and links */
+  }
+
+  .text h2 {
+    font-size: 50px; /* Reduce font size */
+  }
+
+  .text p {
+    font-size: 25px; /* Reduce font size */
   }
 
   .links {
-    align-items: center;
+    align-items: center; /* Center links */
+    flex-direction: column; /* Ensure links stack vertically */
+    gap: 15px; /* Add space between links */
+  }
+
+  .link {
+    gap: 10px; /* Reduce gap between icon and text */
+  }
+
+  .link a {
+    font-size: 25px; /* Adjust font size for links */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 20px; /* Less padding for very small screens */
+    gap: 20px; /* Add gap between elements */
+  }
+
+  .text h2 {
+    font-size: 40px; /* Further reduce heading size */
+  }
+
+  .text p {
+    font-size: 20px; /* Further reduce paragraph size */
+  }
+
+  .links {
+    align-items: center; /* Center links */
+    flex-direction: column; /* Ensure links stack vertically */
+    gap: 10px; /* Add space between links */
+  }
+
+  .link a {
+    font-size: 18px; /* Adjust font size for links */
   }
 }
