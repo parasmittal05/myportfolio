@@ -3,19 +3,17 @@
 .container {
   position: relative;
   background-color: rgba(12, 12, 12, 0.6);
-  border-radius: 15px;
-  padding: 73px;
-  margin-top: 129px;
+  border-radius: 12px;
+  padding: 65px;
+  margin: 110px 8%;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1.25px;
   text-transform: uppercase;
 }
 
@@ -23,17 +21,19 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 20px; /* Added gap for better spacing */
 }
 
 .aboutImage {
-  width: 35%;
+  width: 30%;
+  max-width: 100%; /* Ensure image is responsive */
 }
 
 .aboutItems {
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 45px;
 }
 
 .aboutItem {
@@ -50,7 +50,7 @@
   );
   background-size: 0 100%;
   background-repeat: no-repeat;
-  transition: 0.4s;
+  transition: background-size 0.4s; /* Specify property for clarity */
 }
 
 .aboutItem:hover {
@@ -60,17 +60,18 @@
 .aboutItem h3 {
   font-size: 25px;
   font-weight: 600;
+  margin: 0; /* Reset margin for consistency */
 }
 
 .aboutItem p {
-  font-size: 25px;
+  font-size: 20px;
+  margin: 0; /* Reset margin for consistency */
 }
 
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0; /* Simplified padding reset */
   }
 
   .content {
@@ -78,15 +79,23 @@
   }
 
   .aboutImage {
-    display: none;
+    display: none; /* Hide image for small screens */
   }
 
   .aboutItems {
-    margin-top: 29px;
+    margin-top: 25px;
   }
 
   .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 15px; /* Reduced padding for smaller screens */
+    gap: 15px; /* Adjust gap for smaller items */
+  }
+
+  .aboutItem h3 {
+    font-size: 22px; /* Slightly smaller font size */
+  }
+
+  .aboutItem p {
+    font-size: 18px; /* Slightly smaller font size */
   }
 }
