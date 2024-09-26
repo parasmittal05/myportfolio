@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Book My Dinner",
+    "imageSrc": "projects/project1.png",
+    "description": "A table booking website that allows users to reserve tables at their favorite restaurants with ease.",
+    "skills": ["React", "Node"],
+    "demo": "https://bookmydinner.netlify.app",
+    "source": "https://github.com/parasmittal05"
+  },
+  {
+    "title": "YouTube Clone",
+    "imageSrc": "projects/project2.png",
+    "description": "A YouTube clone that replicates core video streaming features using React, offering a user-friendly interface.",
+    "skills": ["React"],
+    "demo": "https://youtube-uly5.vercel.app",
+    "source": "https://github.com/parasmittal05"
+  },
+  {
+    "title": "FairPlay",
+    "imageSrc": "projects/project3.png",
+    "description": "An online video streaming platform similar to Netflix, built with React and Firebase for seamless content delivery.",
+    "skills": ["React", "Firebase"],
+    "demo": "https://fair-play-3ff27.web.app",
+    "source": "https://github.com/parasmittal05"
+  },
+  {
+    "title": "E-commerce Website",
+    "imageSrc": "projects/project4.png",
+    "description": "A modern e-commerce website built using React and APIs for product data, enabling users to browse and purchase items.",
+    "skills": ["React", "API"],
+    "demo": "https://e-comm-seven-mu.vercel.app",
+    "source": "https://github.com/parasmittal05"
+  },
+  {
+    "title": "CourseNest",
+    "imageSrc": "projects/project5.png",
+    "description": "A platform where users can explore and buy various online courses, built using Node.js and React for a seamless learning experience.",
+    "skills": ["Node.js", "React"],
+    "demo": "https://coursenest.netlify.app",
+    "source": "https://github.com/parasmittal05"
+  },
+  {
+    "title": "Bookstore",
+    "imageSrc": "projects/project6.png",
+    "description": "An online bookstore where users can search and buy books, built using React for the frontend and Node for the backend.",
+    "skills": ["React", "Node"],
+    "demo": "https://bookstoree01.netlify.app",
+    "source": "https://github.com/parasmittal05"
+  }
+]
