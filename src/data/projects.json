@@ -16,6 +16,14 @@
     "source": "https://github.com/parasmittal05"
   },
   {
+    "title": "Employee Management",
+    "imageSrc": "projects/project7.png",
+    "description": "A Employee Managemnt system having employees and an admin and admin can assign task to each Employees",
+    "skills": ["React"],
+    "demo": "https://employee-management-seven-nu.vercel.app",
+    "source": "https://github.com/parasmittal05"
+  },
+  {
     "title": "FairPlay",
     "imageSrc": "projects/project3.png",
     "description": "An online video streaming platform similar to Netflix, built with React and Firebase for seamless content delivery.",
