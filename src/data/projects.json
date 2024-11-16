@@ -24,9 +24,9 @@
     "source": "https://github.com/parasmittal05"
   },
   {
-    "title": "Employee Management",
+    "title": "Car Management",
     "imageSrc": "projects/project8.png",
-    "description": "A dynamic and responsive car dashboard with user authentication (login/logout), search, delete functionalities, and the ability to modify car details, showcasing my expertise in React, Next.js, and full-stack development.",
+    "description": "A responsive car dashboard with user authentication, search, delete, and modify car details features.",
     "skills": ["React , prism , Nextjs"],
     "demo": "https://car-management-system-phi.vercel.app",
     "source": "https://github.com/parasmittal05"
