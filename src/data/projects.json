@@ -7,6 +7,14 @@
     "demo": "https://bookmydinner.netlify.app",
     "source": "https://github.com/parasmittal05"
   },
+     {
+  "title": "Live Polling System",
+  "imageSrc": "projects/project9.png",
+  "description": "A real-time polling application where teachers can create questions and students can participate live, view poll results instantly, and interact via chat.",
+  "skills": ["React", "Socket.io", "Node.js", "Express"],
+  "demo": "https://pollingsystem-one.vercel.app/",
+  "source": "https://github.com/parasmittal05/live-polling-system"
+},
   {
     "title": "YouTube Clone",
     "imageSrc": "projects/project2.png",
@@ -23,6 +31,7 @@
     "demo": "https://employee-management-seven-nu.vercel.app",
     "source": "https://github.com/parasmittal05"
   },
+
   {
     "title": "Car Management",
     "imageSrc": "projects/project8.png",
