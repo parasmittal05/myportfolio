@@ -31,6 +31,14 @@
     "demo": "https://employee-management-seven-nu.vercel.app",
     "source": "https://github.com/parasmittal05"
   },
+{
+  "title": "Finance Tracker",
+  "imageSrc": "projects/project10.png",
+  "description": "A full-stack personal finance tracker that helps users manage expenses, set budgets, visualize spending patterns, and get smart financial suggestions.",
+  "skills": ["Next.js", "Node.js", "Express.js", "MongoDB", "Python", "Tailwind CSS"],
+  "demo": "https://finance-tracker-theta-flame.vercel.app",
+  "source": "https://github.com/parasmittal05/Finance-tracker"
+},
 
   {
     "title": "Car Management",
